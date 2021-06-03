@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>750</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="User">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../Helicopter firebase/user.jpg</normaloff>../Helicopter firebase/user.jpg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>30</y>
+     <width>431</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 48pt &quot;Bebas Neue&quot;;
+color: rgb(38, 0, 153);</string>
+   </property>
+   <property name="text">
+    <string>Helicopter Fire</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="BGImage">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>750</width>
+     <height>400</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../Helicopter firebase/bg.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="BGImage_2">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>0</y>
+     <width>750</width>
+     <height>400</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../Helicopter firebase/bg.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="logout">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(39, 86, 255);
+color: rgb(255, 255, 255);
+font: 12pt &quot;Franklin Gothic Demi Cond&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Logout</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>150</y>
+     <width>160</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="Play">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(39, 86, 255);
+color: rgb(255, 255, 255);
+font: 17pt &quot;Franklin Gothic Demi Cond&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>Play</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="Help">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(39, 86, 255);
+color: rgb(255, 255, 255);
+font: 17pt &quot;Franklin Gothic Demi Cond&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Help</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="LeaderBoard">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(39, 86, 255);
+color: rgb(255, 255, 255);
+font: 17pt &quot;Franklin Gothic Demi Cond&quot;;</string>
+      </property>
+      <property name="text">
+       <string>LeaderBoard</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="Exit">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>320</y>
+     <width>158</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 194, 87);
+color: rgb(255, 255, 255);
+font: 17pt &quot;Franklin Gothic Demi Cond&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Option">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>320</y>
+     <width>158</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(39, 86, 255);
+color: rgb(255, 255, 255);
+font: 17pt &quot;Franklin Gothic Demi Cond&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Option</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="userlabl">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>10</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 14pt &quot;Segoe UI Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Name</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="neterror" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>751</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="nonet">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>110</y>
+      <width>750</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 208);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>data/net error.png</pixmap>
+    </property>
+   </widget>
+  </widget>
+  <zorder>BGImage</zorder>
+  <zorder>User</zorder>
+  <zorder>label</zorder>
+  <zorder>BGImage_2</zorder>
+  <zorder>logout</zorder>
+  <zorder>verticalLayoutWidget</zorder>
+  <zorder>Exit</zorder>
+  <zorder>Option</zorder>
+  <zorder>userlabl</zorder>
+  <zorder>neterror</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
