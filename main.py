@@ -1,20 +1,20 @@
-import pygame
+import pygame  #pip instlaa pygame
 import time
-import random
+import random 
 import math
 import sys
-import socket
-import smtplib
-import pyrebase
-import subprocess
+import socket   #pip install sockets
+import smtplib  #pip install secure-smtplib
+import pyrebase     #pip install Pyrebase4
+import subprocess       #pip install subprocess32
 from tkinter import *
 from threading import Timer
 from operator import itemgetter
-from PyQt5 import QtWidgets, QtCore, QtGui
+from PyQt5 import QtWidgets, QtCore, QtGui  pip install PyQt5
 from PyQt5.QtGui import QPixmap
 from PyQt5.QtWidgets import QDialog, QApplication, QMessageBox
 from PyQt5.uic import loadUi
-from firebase import firebase
+from firebase import firebase    #pip install firebase
 sys.setrecursionlimit(1500)
 global playg
 playg = False
