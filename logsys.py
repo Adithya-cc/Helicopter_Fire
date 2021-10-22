@@ -1,15 +1,15 @@
 import time
 import random
 import sys
-import socket
-import smtplib
-import pyrebase
+import socket       #pip install sockets
+import smtplib      #pip install secure-smtplib
+import pyrebase     #pip install Pyrebase4
 from tkinter import *
 from threading import Timer
 from PyQt5 import QtWidgets, QtCore, QtGui
 from PyQt5.QtWidgets import QDialog, QApplication, QMessageBox
 from PyQt5.uic import loadUi
-from firebase import firebase
+from firebase import firebase    #pip install firebase
 sys.setrecursionlimit(1500)
 global user
 user = ""
